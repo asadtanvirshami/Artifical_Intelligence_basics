@@ -17,7 +17,8 @@ c = np.divide(a, b)
 #Dot Product
 X = np.array([1, 2])
 Y = np.array([3, 2])
-np.dot(X, Y)
+Z = np.dot(X, Y)
+print(Z)
 
 #Adding Constant to a Numpy Array
 u = np.array([1, 2, 3, -1]) 
@@ -40,3 +41,12 @@ np.linspace(-2, 2, num=9)
 x = np.linspace(0, 2*np.pi, num=100)
 # Calculate the sine of x list
 y = np.sin(x)
+
+X=np.array([[1,0,1],[2,2,2]]) 
+out=X[0,1:3]
+
+
+X=np.array([[1,0],[0,1]])
+Y=np.array([[2,2],[2,2]])
+Z=np.dot(X,Y)
+print(Z)
